@@ -1,0 +1,49 @@
+/* p {
+    color: blue;
+}
+
+p.error {
+    color: red;
+}
+
+p.success.feedback {
+    color: green;
+    border: 5px solid yellow;
+} */
+#top-container {
+    background-color: saddlebrown;
+}
+#bot-container {
+    background-color: slateblue;
+}
+
+div .error {
+    color: springgreen;
+}
+ 
+a[href] {
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: violet;
+}
+a[href*="google"] {
+    background-color: yellow;
+}
+a[href$="ac.id"] {
+    background-color: purple;
+}
+
+h1:hover {
+    color: rebeccapurple;
+    background-color: salmon;
+}
+
+p::selection {
+    background-color: sandybrown;
+    color: slateblue;
+}
+
+a::before {
+    content: "Link-"
+}
